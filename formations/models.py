@@ -101,7 +101,7 @@ class FormationPage(AirtableMixin, Page):
                     display_values.append(choice_display)
                     break
 
-        return ", ".join(display_values)
+        return " ou ".join(display_values)
 
     @classmethod
     def map_import_fields(cls):
